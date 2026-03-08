@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+*.egg
+.venv/
+venv/
+
+# Build artifacts
+build/dist/
+build/work/
+
+# Tauri
+tauri/src-tauri/target/
+tauri/frontend/node_modules/
+tauri/frontend/dist/
+tauri/src-tauri/binaries/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+
+# Pytest
+.pytest_cache/
