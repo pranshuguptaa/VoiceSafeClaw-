@@ -6,8 +6,8 @@
   "build": {
     "frontendDist": "../frontend/dist",
     "devUrl": "http://localhost:5173",
-    "beforeDevCommand": "cd ../frontend && npm run dev",
-    "beforeBuildCommand": "cd ../frontend && npm run build"
+    "beforeDevCommand": "cd /Users/pranshugupta/Desktop/VoiceSafeClaw-/tauri/frontend && npm run dev",
+    "beforeBuildCommand": "cd /Users/pranshugupta/Desktop/VoiceSafeClaw-/tauri/frontend && npm run build"
   },
   "app": {
     "withGlobalTauri": true,
@@ -53,17 +53,7 @@
   },
   "plugins": {
     "shell": {
-      "sidecar": true,
-      "scope": [
-        {
-          "name": "voicesafeclaw-engine",
-          "cmd": "binaries/voicesafeclaw-engine",
-          "args": true
-        }
-      ]
-    },
-    "notification": {
-      "all": true
+      "open": true
     }
   }
 }
